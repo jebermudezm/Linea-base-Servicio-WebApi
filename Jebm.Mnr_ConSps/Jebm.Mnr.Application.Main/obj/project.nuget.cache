@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "b+UPQq7u8jPJ+HbKkwDyIefmvNqhfnG/zq4zshmDNJ9wlSm1jU0zw8RR1OtC7kxJjEuJTUIMd2/8IiiKFYv8mA==",
+  "success": true,
+  "projectFilePath": "D:\\DirTrab\\DotNetCore\\Jebm.Mnr\\Jebm.Mnr.Application.Main\\Jebm.Mnr.Application.Main.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaquin.bermudez\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\joaquin.bermudez\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\joaquin.bermudez\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

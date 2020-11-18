@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+hLJV4KLLjLN6OZDzOMQow3t7YvEvYswG3gifs2fvbiXlBgr0f5tIgGgQjjO60u4pgU6MftvNvsW+/CPQ3NGFQ==",
+  "success": true,
+  "projectFilePath": "D:\\DirTrab\\DotNetCore\\Jebm.Mnr\\Pacagroup.Ecommerce.Application.Main\\Jebm.Mnr.Application.Main.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaquin.bermudez\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\joaquin.bermudez\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\joaquin.bermudez\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

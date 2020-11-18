@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <PackageReleaseNotes>Actualizado a .NET Core 3.0</PackageReleaseNotes>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Workspace\Arquitectura .NET\Student\Code\Jebm.Mnr\Jebm.Mnr.Services.WebApi\Jebm.Mnr.Services.WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>D:\workspace\Jebm.Mnr\Jebm.Mnr.Services.WebApi\Jebm.Mnr.Services.WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.7.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Jebm.Mnr.Application.DTO\Jebm.Mnr.Application.DTO.csproj" />
+    <ProjectReference Include="..\Jebm.Mnr.Application.Interface\Jebm.Mnr.Application.Interface.csproj" />
+    <ProjectReference Include="..\Jebm.Mnr.Application.Main\Jebm.Mnr.Application.Main.csproj" />
+    <ProjectReference Include="..\Jebm.Mnr.Domain.Core\Jebm.Mnr.Domain.Core.csproj" />
+    <ProjectReference Include="..\Jebm.Mnr.Domain.Entity\Jebm.Mnr.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Jebm.Mnr.Domain.Interface\Jebm.Mnr.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Jebm.Mnr.Infrastructure.Data\Jebm.Mnr.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Jebm.Mnr.Infrastructure.Interface\Jebm.Mnr.Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\Jebm.Mnr.Infrastructure.Repository\Jebm.Mnr.Infrastructure.Repository.csproj" />
+    <ProjectReference Include="..\Jebm.Mnr.Transversal.Common\Jebm.Mnr.Transversal.Common.csproj" />
+    <ProjectReference Include="..\Jebm.Mnr.Transversal.Logging\Jebm.Mnr.Transversal.Logging.csproj" />
+    <ProjectReference Include="..\Jebm.Mnr.Transversal.Mapper\Jebm.Mnr.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>
